@@ -12,8 +12,6 @@ const axios = require('axios').default.create({
     }
 })
 
-const maxLoopCount = 2
-
 async function getLine() {
     var rl = require('readline').createInterface({
         input: process.stdin,
